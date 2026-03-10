@@ -30,8 +30,14 @@ body {
   color: var(--text);
   line-height: 1.7;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-image:
     radial-gradient(ellipse 80% 60% at 50% -10%, rgba(30,144,255,0.12) 0%, transparent 70%);
+}
+
+main {
+  flex: 1;
 }
 
 /* --- Typographie --- */
@@ -265,7 +271,7 @@ section {
 /* --- Footer --- */
 .footer {
   text-align: center;
-  padding: 1rem 1rem;
+  padding: 0rem 1rem;
   border-top: 1px solid var(--border);
 }
 
